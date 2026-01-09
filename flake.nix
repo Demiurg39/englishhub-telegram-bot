@@ -89,11 +89,11 @@
             export REPO_ROOT=$(git rev-parse --show-toplevel)
           '';
         };
-
-        packages = forAllSystems (system: {
-          default = pythonSets.${system}.mkVirtualEnv "englishhub-bot" workspace.deps.default;
-        });
       }
     );
+
+    packages = forAllSystems (system: {
+      default = pythonSets.${system}.mkVirtualEnv "englishhub-bot" workspace.deps.default;
+    });
   };
 }
