@@ -1,7 +1,7 @@
 [project]
 name = "englishhub-bot"
 version = "0.1.0"
-description = "Add your description here"
+description = "Telegram Bot for English Hub School"
 readme = "README.md"
 authors = [
     { name = "demiurg39", email = "chiryagov2014@gmail.com" }
